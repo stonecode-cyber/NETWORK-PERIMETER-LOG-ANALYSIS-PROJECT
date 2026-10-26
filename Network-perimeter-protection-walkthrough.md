@@ -74,3 +74,10 @@ As shown  below:
 
 <img width="446" height="368" alt="Image" src="https://github.com/user-attachments/assets/a47590be-1d88-4304-adf9-a908fe1a9d54" />
 
+Conclusion:
+
+Monitoring the perimeter means using firewalls, intrusion detection/prevention systems (IDS/IPS), and access control to examine and limit exposure and enforce security rules. This  allows the security analysts to:
+Spot early-stage attacks like port scans or brute-force attempts.
+Detect misconfigurations that leave sensitive services exposed.
+Identify outbound traffic anomalies that may indicate malware or data exfiltration.
+
