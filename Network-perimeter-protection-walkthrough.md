@@ -6,6 +6,8 @@ This is project to monitor and protect a network perimeter using a generted fire
 I opened the file and look carefull into the logs, i found some ip of interest as they sent traffics to an ip address using different port number . This lead to a port scan suspicion as the attacker are looking for a open/weak port in the network shown  in the screenshot below:
 
 <img width="382" height="314" alt="Image" src="https://github.com/user-attachments/assets/d51b1f7c-39b6-40bd-8b12-c8bb05aa83a2" />
+
+
 As shown  ip address 203.0.113.10 try send traffic to with different port such 23 ,25 .
 
 **TASK 2: In the WAF Logs, which single source IP is responsible for all the blocked web attacks?**
@@ -25,6 +27,7 @@ I opeend the file and search for the Failed_AUTH to investigate the log and it d
 I opened the same file and noticed that f ailed_auth came from a certain IP with no user; every instance goes to an internal IP with different usernames at different instances. this ip =45.137.22.13 as shown below:
 
 <img width="433" height="281" alt="Image" src="https://github.com/user-attachments/assets/af2e6d38-ea5a-4885-96d3-af1429ab73ba" />
+
 As seen above, the ip sent traffic with differnt username.
 
 **TASK 5: As a new security analyst, you have been tasked with reviewing one month of perimeter logs to determine what techniques the adversary used, and whether they succeeded in breaching the perimeter.
